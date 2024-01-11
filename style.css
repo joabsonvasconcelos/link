@@ -9,7 +9,7 @@
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --stroke-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(255, 255, 255, 0.2);
+  --highlight-color: rgba(12, 11, 11, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 .light {
@@ -24,6 +24,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+
   height: 100vh;
 }
 body * {
@@ -48,14 +49,12 @@ body * {
 
 #profile p {
   font-weight: 500;
-  line-height: 24px;
+  line-height: 26px;
   margin-top: 8px;
+  font-size: 20px;
 }
 
 #profile h5 span {
-  font-size: 20px;
-}
-#profile p:hover {
   font-size: 20px;
 }
 
@@ -216,23 +215,23 @@ footer {
   display: inline-block;
   position: absolute;
 
-  margin: 25px 25px 25PX 0px;
+  margin: 25px 25px 25px 0px;
   width: 90%;
   border-radius: 5px;
   background-color: #302f3d;
 }
 #my-projects p {
   font-size: 12px;
-  padding: 10px 10PX 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 #box-pro {
-   display: inline-block;
-   position: absolute;
-   width: 80%;
-   margin: 90px 10PX 10px 5px;
+  display: inline-block;
+  position: absolute;
+  width: 80%;
+  margin: 90px 10px 10px 5px;
   border-radius: 5px;
   background-color: #302f3d;
-  padding: 100PX;
+  padding: 100px;
 }
 
 #social-links-portfolio {
